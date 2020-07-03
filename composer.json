@@ -1,0 +1,28 @@
+{
+    "name": "gentor/epay-one-touch",
+    "description": "ePay.bg ONE TOUCH PHP Client",
+    "keywords": [
+        "epay",
+        "one",
+        "touch",
+        "client",
+        "payments",
+        "service"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeni Nurkov",
+            "email": "evgeni.nurkov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gentor\\EpayOneTouch\\": "src/"
+        }
+    }
+}
